@@ -1,0 +1,24 @@
+{
+  "enable": true,
+  "pip_requirements": [],
+  "apt_requirements": ["xxd", "gcc", "gcc-multilib"],
+  "all_copy": true,
+  "user": "root",
+  "launch": "python3",
+  "args": ["-u","./src.py"],
+  "extra_cmd": [],
+  "copy_files": [],
+  "echo_msg": [
+    "你的程序只需要输出字符串 \"Hello, world!\"（结尾有无换行均可）并正常结束。",
+    "运行环境: libc 2.33",
+    "编译指令: gcc -O file.c -m32 -w，详见附件",
+    "运行指令: ./a.out",
+    "注意: 你的可执行文件必须小于 32000 字节，否则系统会拒绝运行。",
+    "1. 轻度失忆",
+    "   编译后 ELF 文件的 .data 及 .rodata 段会被清零。",
+    "2. 记忆清除",
+    "   编译后 ELF 文件的 .text 段会被清零。"
+  ],
+  "download_file_name": "amnesia.sh",
+  "order": 10
+}

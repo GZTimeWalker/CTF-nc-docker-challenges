@@ -1,0 +1,12 @@
+{
+  "enable": true,
+  "pip_requirements": [],
+  "apt_requirements": [],
+  "all_copy": true,
+  "launch": "./tictactoe",
+  "args": [],
+  "extra_cmd": [],
+  "copy_files": [],
+  "echo_msg": ["一道很好的PWN入门题。"],
+  "download_file_name": "examples/tictactoe.zip"
+}

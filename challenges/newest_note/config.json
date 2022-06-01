@@ -1,0 +1,13 @@
+{
+    "enable": true,
+    "pip_requirements": [],
+    "apt_requirements": [],
+    "all_copy": true,
+    "launch": "./newest_note",
+    "args": [],
+    "extra_cmd": [],
+    "copy_files": [],
+    "echo_msg": ["CISCN 2022 (pwn)"],
+    "download_file_name": "newest_note.zip",
+    "order": 10
+}
